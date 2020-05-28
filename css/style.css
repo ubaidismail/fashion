@@ -1,0 +1,389 @@
+html , body{
+	width: 100%;
+	height: 100%;
+}
+ul li {list-style: none;
+}
+ul{
+	padding:0;
+}
+.bar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+.banner{
+	background-image: url(../assets/images/banner_3.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display:table;
+	width: 100%;
+	height:100%;
+}
+nav {
+	background-color: rgba(0 , 0 , 0 ,0.3);
+	vertical-align: middle;
+	margin-top: 25%;
+	background-color: rgba(178, 167, 167, 0.5);
+}
+.logo h1{
+	color: white;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav-items ul{
+	list-style-type: none;
+	color: white;
+}
+.nav-items ul li{
+	
+	display: inline-block;
+}
+.nav-items ul li a{
+	color: white;
+	padding:20px;
+}
+.nav-items{
+	float: right;
+	margin-top: 10px;
+}
+.fashion{
+	margin-top: 10px;
+	padding:5px 0;
+	text-align: center;	
+	background-color: rgb(170, 122, 194);
+	color: white;
+}
+.style{
+	text-align: center;
+	color: white;
+}
+pre{
+	color: white;	
+}
+.bg_{
+	background-color: rgba(0 , 0, 0,0.5);
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+}
+.hub h3{
+	font-size: 14px;
+	width: 10%;
+	color: white;
+	text-align: center;
+	padding:12px;
+	background-color: rgb(170, 122, 194);
+}
+.about_fash h4{
+	font-weight: lighter;
+}
+.icon i{
+	border-radius: 2px;
+	background-color: rgb(170, 122, 194);
+	padding:20px;
+	color: white;
+}
+.text h5{
+	font-weight: normal
+}
+/*service*/
+.service {
+	background-color: #E0BA4B;
+}
+.brand_det{
+	background-color: rgba(147, 132, 132, 0.5);
+	text-align: center;
+	padding:20px;
+	color: white;
+}
+.post-item-text{
+	background-color: #fff;
+	padding:20px;
+}
+.team-main{
+	background-color: #e1ecf1;
+}
+hr{
+	height: 100% !important;
+	width: 0.45%;
+	background-color: black;
+	position: absolute;
+    top: -20px;
+    left: 376px;
+}
+.rounded-circle{
+	cursor: pointer;
+}
+.gl_1 a{
+	color: white;
+	padding:10px;
+	background-color: rgb(170, 122, 194);
+	
+}
+.gl_1 img:hover{
+	/*transform: scaleY(2);*/
+}
+/*img_model*/
+/* Style the Image Used to Trigger the Modal */
+#myImg , #myImg_2 , #myImg_3 , #myImg_4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover{
+	opacity: 0.7;
+}
+#myImg_2:hover{
+	opacity: 0.7;
+	
+}
+
+#myImg_3:hover{
+	opacity: 0.7;
+	
+}
+#myImg_4:hover{
+	opacity: 0.7;
+	
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+/*img_model*/
+
+/*test*/
+.teste{
+	background-image: url(../assets/images/test1.jpg);
+	/*background-attachment: fixed;*/
+	display: table;
+	width: 100%;
+	height: 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*test*/
+
+/*price*/
+.basic{
+	border:1px solid black;
+}
+.basic_pack span.dol{
+	display: inline !important;
+	position: relative;
+	top: 13px;
+	left:-42px;
+	right: 0;
+	font-size: 14px;
+}
+.basic_pack h4{
+	color: #baa3cd;
+}
+.basic_pack p{
+	border:1px dotted;
+	width: 60%;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.basic_pack button{
+	border:1px solid #baa4cd;
+	color: white;
+	background-color: black;
+	padding:5px 15px;
+
+}
+.basic_pack button:hover{
+	background-color: #baa4cd;
+}
+.basic_pack span.dol_1{
+	left:-52px;
+}
+/*price*/
+/*contacft*/
+.contact_icon i{
+	color: #BAA3CD;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+/*contacft*/
+/*mail*/
+.mail{
+	margin-top: 12px;
+}
+.form input{
+	width: 100% !important;
+	margin:10px 0;
+}
+.form input::placeholder{
+	padding-left: 10px;
+}
+.mail strong{
+	margin-bottom: 10px !important;
+	display: block;
+}
+/*mail*/
+
+/*footer*/
+footer{
+	padding:20px 0;
+	background-image: url('../assets/images/banner1.jpg');
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	color: white;
+}
+.overlay_col{
+	background-color: rgba(5, 7, 237, 0.4);
+	position: absolute;	
+	/*width: 100%;*/
+	/*height: 100%;*/
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*z-index: 1;*/
+}
+.nav_foot ul li a {
+	color: white;
+}
+.last_foot p{
+	z-index: 111;
+}
+/*footer*/
+@media only screen and (max-width: 768px){
+		.bar{
+			display: block;
+			color: white;
+			cursor: pointer;
+			top: -30px;
+		}
+		.nav-items ul{
+			background: rgba(170, 122, 194,.8);
+			position: absolute;
+			top: 0;
+			z-index: 100;
+			right: 0;
+			width: 80%;
+			opacity: 0;
+			/*display: none;*/
+		}
+
+		.open ul{
+			opacity: 1 !important;
+			/*display: block;*/
+		}
+		.nav-items ul li{
+			display: block;
+			text-align: center;
+		}
+		.nav-items ul li:hover{
+			background-color:gray;
+		}
+		.hub h3 , .icon , .creat{
+			/*text-align: center;*/
+			display: block;
+			width: 100%;
+		}
+		.creat{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.icon , .text{
+			text-align: center;
+		}
+		.brand_det{
+			margin-bottom: 4px;
+		}
+		hr{
+			display: none;
+		}
+		.basic{
+			margin-bottom: 10px;
+		}
+		.nav_foot{
+
+		}
+		.offset-1{
+			margin-left: 0 !important;
+		}
+
+
+
+}
